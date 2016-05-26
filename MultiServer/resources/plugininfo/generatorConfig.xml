@@ -7,8 +7,8 @@
   <context id="context1" >
     <jdbcConnection 
     	driverClass="com.mysql.jdbc.Driver" 
-    	connectionURL="jdbc:mysql://rds7z7rovo6l1p1mtmsw7.mysql.rds.aliyuncs.com:3306/multimediaprototype" 
-    	userId="prototype" password="prototype" />
+    	connectionURL="jdbc:mysql://xxx.mysql.rds.aliyuncs.com:3306/xxx"
+    	userId="xxx" password="xxx" />
     <javaModelGenerator targetPackage="org.multimediaprototype.oss.dao.model" targetProject="MultiServer" />
     <sqlMapGenerator targetPackage="org.multimediaprototype.oss.dao.mapper.xml" targetProject="MultiServer" />
     <javaClientGenerator targetPackage="org.multimediaprototype.oss.dao.mapper" targetProject="MultiServer" type="XMLMAPPER" />
